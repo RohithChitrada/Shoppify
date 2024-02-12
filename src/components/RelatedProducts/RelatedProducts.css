@@ -1,0 +1,96 @@
+.relatedproducts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 90vh;
+}
+.relatedproducts h1{
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+}
+.relatedproducts hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+}
+.relatedproducts-item{
+    margin: 50px;
+    display: flex;
+    gap: 30px;
+}
+@media screen and (max-width:1100px){
+    .relatedproducts{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        height: auto;
+    }
+    .relatedproducts-item{
+        margin-top: 50px;
+        margin-right: 12px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+}
+@media screen and (max-width:400px){
+    .relatedproducts{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        height: auto;
+    }
+    .relatedproducts-item{
+        margin-top: 50px;
+        margin-right: 12px;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+}
+@media screen and (max-width:600px){
+    .relatedproducts{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        height: auto;
+    }
+    .relatedproducts-item{
+        margin-top: 50px;
+        margin-right: 12px;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+}
+@media screen and (max-width:280px){
+    .relatedproducts{
+        display: flex;
+        flex-direction: column;
+        margin-left: 300px;
+        align-items: center;
+        gap: 10px;
+        height: auto;
+    }
+    .relatedproducts-item{
+        margin-top: 50px;
+        display: grid;
+        /* margin-left: 450px; */
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+}
