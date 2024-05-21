@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was made with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -68,3 +68,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Output
+
+![Screenshot (19)](https://github.com/RohithChitrada/Shoppify/assets/120176158/871bc91e-80d9-41d1-9339-bda3cfd665cb)
+![Screenshot (24)](https://github.com/RohithChitrada/Shoppify/assets/120176158/a1ae6e12-4b9b-4d2d-aec6-dc3d0f87a23c)
+![Screenshot (25)](https://github.com/RohithChitrada/Shoppify/assets/120176158/e4286151-07c4-4fe4-bcfe-389648ae7e8d)
+![Screenshot (26)](https://github.com/RohithChitrada/Shoppify/assets/120176158/4a6ead80-b88b-43f1-b505-5ce92f04ce5b)
+![Screenshot (23)](https://github.com/RohithChitrada/Shoppify/assets/120176158/e94e51c0-881c-4748-b1bb-78a10e539d2f)
