@@ -69,6 +69,10 @@
     border-radius: 3px;
     cursor: pointer;
 }
+.productdisplay-right-sizes div.selected {
+    background: orangered;
+    color: #fff;
+  }
 .productdisplay-right button{
     padding: 18px 40px;
     width: 200px;
