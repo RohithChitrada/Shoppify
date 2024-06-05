@@ -256,6 +256,7 @@
         background-color: #ff4141;
         color: white;
         border: white;
+        margin-left: -10px;
     }
     #btn:hover{
         letter-spacing: 2px;
@@ -272,7 +273,7 @@
     }
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:550px) {
     .offers{
         height: auto;
         background: linear-gradient(180deg,#fde1ff,#55d7e822 60%);
@@ -313,6 +314,7 @@
         background-color: #ff4141;
         color: white;
         border: white;
+        margin-left: 0;
     }
     .offers-right img{
         width: 120%;

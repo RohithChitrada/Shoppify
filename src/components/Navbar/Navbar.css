@@ -151,3 +151,36 @@
       margin: auto;
     }
   }
+  @media (max-width: 400px) {
+    .shoppify-text {
+      display: none;
+    }
+  
+    .menu-icon {
+      display: block;
+    }
+  
+    .nav-menu {
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      right: 0;
+      background-color: white;
+      display: none;
+    }
+  
+    .nav-menu.open {
+      display: flex;
+    }
+  
+    .nav-menu li {
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+    }
+  
+    .nav-login-cart {
+      display: flex;
+      align-items: center;
+    }
+  }

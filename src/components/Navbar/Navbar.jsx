@@ -23,7 +23,7 @@ export const Navbar = () => {
       </div>
       <div className="nav-logo">
         <Link to='/'><img src={logo} alt="" to='/' /></Link>
-        <p>SHOPPIFY</p>
+        <p className="shoppify-text">SHOPPIFY</p>
       </div>
       <ul className={`nav-menu ${isOpen ? 'open' : ''}`}>
         <li onClick={()=>{handleMenuChange('shop')}}><Link to='/' style={{textDecoration:'none', color: 'black'}}>Shop</Link>{ menu==="shop"?<hr/>:<></>}</li>
